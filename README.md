@@ -7,7 +7,10 @@ Welcome to the Tic-Tac-Toe AI Project! This application is a web-based Tic-Tac-T
 
 I implemented this game as a short project to test MCTs out while I was researching methods to be used for an ML/AI chess bot hackathon. 
 
-Originally the game ran in console but I refractored it to be used via frontend!
+Originally the game ran on console but I refractored it to be used via frontend!
+
+
+![githubttcgif](https://github.com/jiahaoli0465/tictactoebot/assets/144624616/f1ca383b-3226-4ec5-9e85-d13511148aca)
 
 ## Features
 
