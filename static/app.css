@@ -1,5 +1,5 @@
 body {
-    background-color: #5F9EA0;
+    background-color: #a05f5f;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,8 +70,8 @@ body {
    
 
      button {
-       background-color: #245252;
-       border-color: #245252;
+       background-color: #523024;
+       border-color: #522924;
        border-radius: 4px;
        font-family: 'Nunito', sans-serif;
        color: #b1bdc3;
@@ -92,7 +92,7 @@ body {
    
      #game {
        margin-top: 10px;
-       background-color: #579596;
+       background-color: #965857;
        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);  
        padding: 10px;
        padding-bottom: 70px;
@@ -148,8 +148,8 @@ body {
      }
      .selector-button {
        padding: 10px;
-       border: 1px solid #418788;
-       background-color: #438c8d;
+       border: 1px solid #884141;
+       background-color: #8d4443;
        cursor: pointer;
        outline: none;
        text-align: center;
@@ -165,14 +165,14 @@ body {
      
      /* Style for the active button */
      .active-button {
-       background-color: #386c6d;
-       border-color: #438c8d;
+       background-color: #6d3838;
+       border-color: #8d4343;
      }
      
    
    
    .home-content {
-       background-color: #579596;
+       background-color: #965757;
        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
        max-width: 600px;
        margin: 0 auto;
@@ -203,7 +203,7 @@ body {
    }
    
    .start-button:hover {
-       background-color: #517f8d;
+       background-color: #8d5151;
    }
    
    #author {
