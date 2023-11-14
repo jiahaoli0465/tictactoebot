@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}
+Boggle Home
+{% endblock %}
+
+{% block content %}
+<div class="home-content">
+    <h2>Welcome to Tic Tac Toe!</h2>
+    <p>
+       Tic Tac Toe is a classic game, play it agains an AI
+    </p>
+    <p id="author"><b>Made by Jiahao Li</b></p>
+    <h3>How to Play</h3>
+    <ul>
+        <li>The game begins with a 3x3 grid. You are "X" and your task is to get 3 in a row</li>
+       
+        <li>My AI is very good, good luck! I dont think you can win at all...</li>
+    </ul>
+    
+    <a class="start-button">Start Game</a>
+    <!-- <button class="start-button">Start Game </button> -->
+</div>
+<script src="static/home.js"></script>
+{% endblock %}
+

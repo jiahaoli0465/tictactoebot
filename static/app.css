@@ -1,0 +1,212 @@
+body {
+    background-color: #5F9EA0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+    height: 100vh; /* Adjust to the desired height */
+   
+    
+   
+   
+   }
+   
+
+   
+   #TTC {
+       position: relative;
+       width: 100%;
+       height: 600px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: row;
+   }
+   
+   #boarddiv {
+       width: 500px;
+       height: 500px;
+       text-align: center;
+   
+   }
+   
+   .board {
+       width: 100%;
+       height: 100%;
+   }
+   
+   td {
+       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);  
+       width: 20%;
+       height: 20%;
+       font-size: 60px;
+       font-family: 'Nunito', sans-serif;
+       color: #ECEBEB;
+       text-shadow: 0 1px 1px #888888;
+   
+   }
+   
+
+   p {
+       margin-top: 4px;    /* Adjust the value as needed */
+       margin-bottom: 4px; /* Adjust the value as needed */
+     }
+   h2 {
+       margin-top: 3px;
+       text-align: center;
+       margin-bottom: 6px;
+   }
+   
+   h3 {
+       margin-top: 3px;
+       margin-bottom: 4px;
+   }
+   
+
+   
+
+   
+
+     button {
+       background-color: #245252;
+       border-color: #245252;
+       border-radius: 4px;
+       font-family: 'Nunito', sans-serif;
+       color: #b1bdc3;
+       text-shadow: 0 .1px .1px #888888;
+       height: 40px;
+       width: 100px;
+       font-size: 20px;
+       transform: translateY(-1px);
+       cursor: pointer;         /* Keep the pointer cursor to maintain affordance */
+       box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);  
+   
+   
+       
+       
+     }
+     
+
+   
+     #game {
+       margin-top: 10px;
+       background-color: #579596;
+       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);  
+       padding: 10px;
+       padding-bottom: 70px;
+       display: flex;
+       flex-direction: column;
+       color: #192d2d;
+       height: 333px;
+   
+     }
+
+     .homeMessage{
+       margin-right: 10px;
+     }
+   
+     .home-button-class {
+       height: 100%;
+     }
+    #TTC ul {
+       display: flex; /* This will layout the list items inline */
+       flex-wrap: wrap; /* This allows list items to wrap onto the next line if there's not enough space */
+       padding: 0; /* Resets default padding */
+       list-style-type: none; /* Removes default list item bullets */
+       max-width: 100%;
+       
+     }
+   
+     #TTC ul li {
+       margin-right: 10px; /* Adds some space between list items, adjust as needed */
+       margin-bottom: 10px; /* Adds some space between rows, adjust as needed */
+       /* background-color: #192d2d; */
+       color: #ECEBEB;
+       border-radius: 2px;
+       padding-left: 8px;
+       padding-right: 8px;
+       padding-top: 4px;
+       padding-bottom: 4px;
+       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);  
+       text-shadow: 0 .3px .3px #888888;
+   
+   
+   
+     }
+   
+   
+     #button-selector {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       row-gap: 10px; /* Gap between rows */
+       column-gap: 20px; /* Gap between columns */
+       margin-top: 15px;
+     }
+     .selector-button {
+       padding: 10px;
+       border: 1px solid #418788;
+       background-color: #438c8d;
+       cursor: pointer;
+       outline: none;
+       text-align: center;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       color: #ECEBEB;
+       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);  
+   
+   
+   
+     }
+     
+     /* Style for the active button */
+     .active-button {
+       background-color: #386c6d;
+       border-color: #438c8d;
+     }
+     
+   
+   
+   .home-content {
+       background-color: #579596;
+       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+       max-width: 600px;
+       margin: 0 auto;
+       padding: 20px;
+       text-align: center;
+   }
+   
+   .home-content h2 {
+       color: #333;
+   }
+   
+   .home-content ul {
+       text-align: left;
+       list-style-type: square;
+   }
+   
+   .start-button {
+       display: inline-block;
+       padding: 10px 20px;
+       margin-top: 20px;
+       background-color: transparent; /* Cadet Blue */
+       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+   
+       color: #ECEBEB;
+       text-decoration: none;
+       font-weight: bold;
+       border-radius: 5px;
+   }
+   
+   .start-button:hover {
+       background-color: #517f8d;
+   }
+   
+   #author {
+     color: #252525;
+     margin: 10px;
+   }

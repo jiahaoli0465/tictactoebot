@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}
+Tic Tac Toe
+{% endblock %}
+
+{% block content %}
+
+<section id="TTC">
+    <div id="boarddiv">
+        <table class="board">
+            <tbody>
+              {% for row in range(3) %}
+              <tr>
+                {% for col in range(3) %}
+                <td class="cell" data-bid="{{row * 3 + col}}" data-row="{{ row }}" data-col="{{ col }}"></td>
+                {% endfor %}
+              </tr>
+              {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</section>
+
+<div id="buttons">
+  <button id="refresh">Restart</button>
+  <button id="home">Home</button>
+</div>
+
+
+
+<script src="/static/app.js"></script>
+
+{% endblock %}
