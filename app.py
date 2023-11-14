@@ -1,20 +1,19 @@
 from flask import Flask, render_template, request, jsonify, session
-from game import TTCgame  # Make sure to import your TTCgame class
+from game import TTCgame  
 
 app = Flask(__name__)
 
-# Initialize the game
-# game = TTCgame()
+
 
 @app.route('/')
 def index():
-    # Render your game's front-end HTML
+
     return render_template('home.html')
 
 @app.route('/play')
 def play():
     global game
-    game = TTCgame()  # Reinitialize the game
+    game = TTCgame()  
     return render_template('play.html')
 
 @app.route('/move', methods=['POST'])
